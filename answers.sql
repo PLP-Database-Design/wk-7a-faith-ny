@@ -8,12 +8,12 @@ CREATE TABLE ProductDetail_1NF (
 
 INSERT INTO ProductDetail_1NF (OrderID, CustomerName, Product)
 VALUES
-(101, 'Faith Nyambura', 'Laptop'),
-(101, 'Joy Amani', 'Mouse'),
-(102, 'Alexa Katie', 'Tablet'),
-(102, 'Erica ha', 'Keyboard'),
-(102, 'Emily ha', 'Mouse'),
-(103, 'Evelyn ha', 'Phone');
+(101, 'John Doe', 'Laptop'),
+(101, 'John Doe', 'Mouse'),
+(102, 'Jane Smith', 'Tablet'),
+(102, 'Jane Smith', 'Keyboard'),
+(102, 'Jane Smith', 'Mouse'),
+(103, 'Emily Clark', 'Phone');
 
 
 -- Question 2: Achieving 2NF
@@ -26,9 +26,9 @@ CREATE TABLE Customers (
 
 INSERT INTO Customers (OrderID, CustomerName)
 VALUES
-(101, 'Katie fang'),
-(102, 'Erica fang'),
-(103, 'Suni lee');
+(101, 'John Doe'),
+(102, 'Jane Smith'),
+(103, 'Emily Clark');
 
 -- Store product and quantity in separate table
 CREATE TABLE OrderItems (
